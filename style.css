@@ -18,11 +18,12 @@ img{
 
 .dark-purple-shape{
     position: absolute;
-    width: 350px;
+    width: 45vh;
     height: 650px;
-    background-color: hsl(264, 100%, 61%);
+    background-image: linear-gradient(360deg, hsl(264, 100%, 61%),30%, hsl(293, 100%, 63%));
     top: 0;
-    border-radius: 0 0 300px 200px;
+    border-radius: 0 0 30rem 30rem;
+    left: -85px;
 }
 
 .light-purple-shape{
@@ -32,8 +33,8 @@ img{
     height: 650px;
     background-color: hsl(260, 100%, 97%);
     bottom: 0;
-    border-top-right-radius: 150px;
-    border-top-left-radius: 300px;
+    border-radius: 30rem 30rem 0 0;
+    right: -5%;
 }
 
 p{
